@@ -19,7 +19,7 @@ body {
 }
 
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 
 header {
@@ -57,7 +57,7 @@ header {
 
 /* index.html HEADER LIST+NAV */
 
-.header-address:hover, 
+.header-address:hover,
 .header-address:focus {
   color: var(--color-btn-bng);
 }
