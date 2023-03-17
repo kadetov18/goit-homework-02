@@ -8,7 +8,13 @@
 }
 /* index.html start */
 body {
-  font-family: Roboto, sans-serif;
+  background-color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+}
+header {
+  font-style: normal;
+  list-style: none;
   color: var(--color-text);
 }
 .item {
@@ -23,14 +29,15 @@ body {
 .logo-title {
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "Raleway";
-  color: var(--color-text-title-bng);
+  font-family: "Raleway", sans-serif;
+  color: var(--color-logo);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .logo-span {
-  color: var(--color-logo);
+  color: var(--color-text-title-bng);
 }
 
 /* index.html HEADER LIST+NAV */
@@ -70,6 +77,8 @@ body {
 
 .hero-btn {
   background-color: var(--color-logo);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -79,10 +88,11 @@ body {
 .goals {
 }
 .goals-title {
+  font-weight: 500;
   display: none;
 }
 
-.goals-list {
+.list-goals {
 }
 .goals-item {
 }
@@ -112,9 +122,11 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--color-text-title-bng);
 }
-.worck-list {
+.list-worck {
 }
 .worck-item {
 }
@@ -123,21 +135,26 @@ body {
 
 /* index.html SECTION TEAM */
 .team {
+  background-color: #f4f4fd;
 }
 .section-team-title {
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--color-text-title-bng);
 }
 
-.team-list {
+.list-team {
 }
 .team-item {
+  background-color: var(--color-white);
 }
 .item {
 }
 .team-list-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -154,6 +171,17 @@ body {
 .web-footer {
   background-color: #2e2f42;
 }
+
+.logo-title-footer {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: var(--color-logo);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
 .web-footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -161,7 +189,7 @@ body {
   color: var(--color-footer-text);
 }
 
-.web-footer-span {
+.logo-span-footer {
   color: var(--color-footer-text);
 }
 /* index.html finish */
@@ -177,6 +205,8 @@ body {
 /* portfolio.html BUTTON */
 .portfolio-btn {
   background-color: var(--color-footer-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   border: 1px solid #e7e9fc;
   font-size: 16px;
   line-height: 1.5;
