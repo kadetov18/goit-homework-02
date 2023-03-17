@@ -56,6 +56,11 @@ header {
 }
 
 /* index.html HEADER LIST+NAV */
+
+.header-address:hover, 
+.header-address:focus {
+  color: var(--color-btn-bng);
+}
 .header-address {
   text-decoration: none;
   font-style: normal;
