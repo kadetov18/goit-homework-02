@@ -23,6 +23,10 @@ header {
   font-style: normal;
 }
 
+.link {
+text-decoration: none
+}
+
 .header-nav {
 }
 
