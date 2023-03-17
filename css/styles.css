@@ -12,11 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
 }
-header {
-  font-style: normal;
-  list-style: none;
-  color: var(--color-text);
-}
 .list {
   list-style: none;
   text-decoration: none;
@@ -24,7 +19,13 @@ header {
 }
 
 .link {
-text-decoration: none
+text-decoration: none;
+}
+
+header {
+  font-style: normal;
+  list-style: none;
+  color: var(--color-text);
 }
 
 .header-nav {
