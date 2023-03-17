@@ -1,7 +1,7 @@
 :root {
   --color-logo: #4d5ae5;
   --color-text: #434455;
-  --color-text-title-bng: #2e2f42;
+  --color-text-title-bng: #2e2f42 #434455 ;
   --color-white: #ffffff;
   --color-footer-text: #f4f4fd;
   --color-btn-bng: #404bbf;
