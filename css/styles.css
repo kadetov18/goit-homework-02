@@ -57,9 +57,9 @@ header {
 
 /* index.html HEADER LIST+NAV */
 
-.header-address:hover,
-.header-address:focus {
-  color: var(--color-btn-bng);
+.link-adsress:hover,
+.link-adsress:focus {
+  color: #404bbf;
 }
 .header-address {
   text-decoration: none;
