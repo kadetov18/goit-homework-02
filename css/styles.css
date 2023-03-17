@@ -17,7 +17,7 @@ header {
   list-style: none;
   color: var(--color-text);
 }
-.item {
+.list {
   list-style: none;
   text-decoration: none;
 }
