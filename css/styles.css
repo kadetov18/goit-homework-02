@@ -20,6 +20,7 @@ header {
 .list {
   list-style: none;
   text-decoration: none;
+  font-style: normal;
 }
 
 .header-nav {
@@ -43,6 +44,7 @@ header {
 /* index.html HEADER LIST+NAV */
 .header-address {
   text-decoration: none;
+  font-style: normal;
 }
 
 .link-item:hover,
@@ -55,7 +57,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text-title-bng);
+  color: var(--color-text);
 }
 /* index.html HERO SECTION */
 .hero-section {
